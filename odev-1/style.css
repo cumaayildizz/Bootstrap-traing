@@ -1,0 +1,87 @@
+ /* Sayfa genelindeki stiller */
+ body {
+    background-color: #E9ECEF; /* Sayfa arka plan rengi */
+}
+
+/* Navbar stilleri */
+.navbar {
+    background-color: #343a40; /* Navbar arka plan rengi */
+}
+.header-fixed {
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+
+/* Jumbotron stilleri */
+.jumbotron {
+    background-color: #343a40; /* Jumbotron arka plan rengi */
+    color: #ffffff; /* Jumbotron metin rengi */
+}
+.welcome-text {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.welcome-text span {
+    display: block;
+    font-size: 50px;
+    color: brown; /* Span elemanının metin rengi */
+}
+
+/* Ürün listesi stilleri */
+.product-list {
+    text-align: center;
+}
+
+/* Kart stilleri */
+.card {
+    margin: 20px;
+}
+section img {
+    border-radius: 20%; /* Ürün resimlerinin kenar yuvarlatma */
+    padding: 5px;
+}
+.card-img-overlay {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    bottom: 10px;
+}
+
+/* Resim kaplama stilleri */
+.image-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    border-radius: 10%;                   
+}
+.image-container img:hover {
+    border: 2px solid rgb(255, 0, 0);
+}
+
+.image-container .image-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/* Overlay içindeki küçük resim  */
+.image-container .image-overlay img {
+    width: 150px; 
+    height: auto;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+.image-container .image-overlay img:hover {
+    width: 220px; 
+    height: auto;
+    border-radius: 50%;
+    border: 2px solid #ff0000;
+}
