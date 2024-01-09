@@ -27,12 +27,10 @@ input.empty {
   font-size: 15px;
   color: black;
 }
-#sticky-sidebar {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
+#sticky-sidebar{
+  position: fixed;
+  top: 76px;
   background-color: white;
-  /*padding: 20px;*/
   border: none;
 }
 .rightpanel {
