@@ -1,0 +1,26 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Serif', serif;
+}
+
+.bg-yellow {
+    background-color: #ffc65c;
+    
+}
+.border-bottom-dark {
+    border-bottom: 1px solid rgba(41, 41, 41, 1);
+}
+.home-img {
+    background-color: #ffc65c ;
+    color: #ffc65c;
+    height: 300px;
+    width: 300px;
+}
+
+.aside-btn > li{
+    margin-bottom: 10px;
+} 
+
+.p-degis {
+    font-size: 12px;
+}
